@@ -1,12 +1,14 @@
-…or create a new repository on the command line
+# Initial workflow
+
 echo "# SimpleTestProject" >> README.md
+``` git
 git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/zagzag2011/SimpleTestProject.git
 git push -u origin main
-                
+```             
 …or push an existing repository from the command line
 git remote add origin https://github.com/zagzag2011/SimpleTestProject.git
 git branch -M main
@@ -16,8 +18,8 @@ git push -u origin main
 git --version
 git status
 git config --list
-git config --global user.name "MG"
-git config --global user.mail "zagzag2011@gmail.com"
+git config --global user.name "UserName"
+git config --global user.mail "user@example.com"
 git config color.ui auto
 git add -A
 git reset
